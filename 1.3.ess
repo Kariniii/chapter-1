@@ -1,1 +1,13 @@
-
+start
+new one string
+new two string
+new tri string
+new four string
+new five string
+set one = "B"
+set two = "I"
+set tri = "N"
+set four = "G"	
+set five = "O"
+log string one >>"-">> two >>"-">> tri >>"-">> four >>"-">> five
+finish

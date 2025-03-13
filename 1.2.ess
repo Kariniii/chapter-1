@@ -1,7 +1,7 @@
 start
-log string "a"
-log string "b"
-log string "c"
-log string "d"
-log string "e"
+log string "A"
+log string "A"
+log string "A"
+log string "A"
+log string "A"
 finish

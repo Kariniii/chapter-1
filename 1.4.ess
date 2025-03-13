@@ -1,1 +1,19 @@
-
+start
+new bank string
+set bank "Sber"
+new imya string
+set imya "Nina Timonova"
+new num string
+set num "2000 3100 4200 5300"
+new cvv number
+set cvv 416
+new date string
+set date "06/2027"
+log string "_________________________________"
+log string "| " >> bank >>"            ">> "|"
+log string "| " >> imya >>"            ">> "|"
+log string "| " >> num >>"              ">>"|"
+log string "| " >> cvv >>"              ">>"|"
+log string "| " >> date >>"             ">>"|"
+log string "_________________________________"
+finish

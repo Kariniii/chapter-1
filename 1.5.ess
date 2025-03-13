@@ -1,1 +1,10 @@
-
+start
+new num number
+set num 5
+log string "Таблица умножения на ">> num>>":"
+loop umnojenie (num<50)
+    log number num
+    set num = num * 5
+end umnojenie
+log string umnojenie * num = umnojenie
+finish

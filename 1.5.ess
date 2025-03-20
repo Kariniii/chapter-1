@@ -1,29 +1,13 @@
 start
-new num number
-set num 5
-log string "Таблица умножения на ">> num>>":"
-loop umnojenie (num<50)
-    log number num
-    set num = num * 5
-end umnojenie
-log string umnojenie * num = umnojenie
-finish
-
-start
 new a number
-log string "Таблица умножения на ">> a>>":"
-loop counter (21 > a)
-    log number a
-    set a a + 2
-end counter
-finish
-
-Верный код:
-start
-new a number
+new b number
+set b 0
+new c number
+set c 1
 log string "Таблица умножения на 2:"
 loop counter (21 > a)
-    log number a
+    log string "2*">>b>>"=">>a
     set a a + 2
+    set b b + c
 end counter
 finish

@@ -6,8 +6,8 @@ new c number
 set c 1
 log string "Таблица умножения на 2:"
 loop counter (21 > a)
-    log string "2*">>b>>"=">>a
-    set a a + 2
-    set b b + c
-end counter
-finish
+     log string "2*">>b>>"=">>a
+     set a a + 2
+     set b b + c
+ end counter
+ finish
